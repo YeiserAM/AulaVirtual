@@ -175,7 +175,8 @@ h6 {
 #header #logooo img {
   padding: 0;
   margin: 25px 0px 0px 0px;
-  max-height: 40px;
+  height: 150px;
+  width: 300px;
 }
 
 @media (max-width: 992px) {
@@ -477,7 +478,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/portada/2.png) top center;
+  background: url(../img/portada/wall1.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -487,12 +488,13 @@ h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+
   }
 }
 
 #hero:before {
   content: "";
-  background: rgba(34, 23, 6, 0.72);
+  background: rgba(34, 23, 6, 0.82);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -517,7 +519,19 @@ h6 {
 @media (max-width: 991px) {
   #hero .hero-container {
     top: 70px;
+    background-image: linear-gradient(rgba(34, 23, 6, 0.82), rgba(34, 23, 6, 0.82)), url(../img/portada/verticalMobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+  
+}
+
+@media (max-width: 450px) {
+  #hero .hero-container {
+    top: 70px;
+    background-image: linear-gradient(rgba(34, 23, 6, 0.82), rgba(34, 23, 6, 0.82)), url(../img/portada/verticalMobile.png);
+  }
+  
 }
 
 #hero h1 {
@@ -852,24 +866,24 @@ h6 {
 
 @media (max-width: 991px) {
   #schedule .nav-tabs a {
-    padding: 8px 60px;
+    padding: 8px 20px;
   }
 }
 
 @media (max-width: 767px) {
   #schedule .nav-tabs a {
-    padding: 8px 50px;
+    padding: 8px 15px;
   }
 }
 
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
-    padding: 8px 30px;
+    padding: 8px 10px;
   }
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: #E7B144;
   color: #fff;
 }
 
