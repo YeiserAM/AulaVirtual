@@ -892,6 +892,7 @@ h6 {
   font-size: 18px;
   font-style: italic;
   margin: 0 auto 30px auto;
+  color: red;
 }
 
 @media (min-width: 991px) {
